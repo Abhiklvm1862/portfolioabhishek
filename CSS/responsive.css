@@ -1,0 +1,32 @@
+
+
+
+/* if the viewport is equal to 340px or less than that */
+
+@media only screen and (max-width: 340px){
+    .header_area .main-menu .navbar,
+    .header_area .main-menu .navbar .navbar-brand,
+    .site-main .subscribe-me-area .subscribe .subscribe-title,
+    .site-main .subscribe-me-area .subscribe .subscribe-title p, h4
+    .site-main .work-area,
+    .site-main .subscribe-me-area .subscribe
+    {
+        padding: 1%;
+        margin: 0%;
+    }
+
+
+
+    .site-main .site-banner .site-title h1{
+        font-size: 30px;
+    }
+
+    .site-main .subscribe-me-area .subscribe form .input-text input{
+        width: 5rem;
+    }
+
+
+    .site-main > .work-area .work{
+        width: 5rem;
+    }
+}

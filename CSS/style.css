@@ -1,0 +1,346 @@
+/* import fonts from fonts.css file */
+@import url(./fonts.css);
+
+
+
+/* CSS variables */
+@import url(./partials/_variables.css);
+
+
+/* import global styling */
+@import url(./partials/_global.css);
+
+
+
+/* start navigation */
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 40rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 0rem;
+}
+
+.header_area .main-menu .nav-item .navlink{
+    font-family: var(--roboto);
+    color: var(--title-color);
+}
+
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+}
+ 
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+
+
+
+}
+/* end navigation */
+
+
+
+/* Start Banner Area */
+
+.site-main .site-banner {
+    background: url(../img/banner2.png) no-repeat 0% 50%;
+
+}
+.site-main .site-banner .site-title h3{
+    padding-top: 30%;
+    font-weight: 700;
+}
+
+
+
+/* End Banner Area */
+
+/* Start About Area */
+
+.site-main .about-area{
+    padding: 12rem 4rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px var(--roboto);
+    letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph>p{
+    padding: 7rem 0;
+}
+
+/* End About Area */
+
+
+
+
+/* Start Skills Area */
+
+.site-main .skills-area{
+    padding: 1rem 1rem;
+    margin-bottom: 3rem;
+}
+
+.site-main .skills-area .first-row .col-lg-4{
+    display: flex;
+    justify-content: center;
+}
+
+.site-main .skills-area .first-row .col-lg-4 > .single-skills{
+    border: 1px solid var(--border-color);
+    text-align: center;
+    padding: 1rem 0rem;
+    margin: .2rem 0;
+    width: 200px;
+    height: 150px;
+    cursor: pointer;
+    transition: transform .4s ease;
+
+}
+
+.site-main .skills-area .first-row .col-lg-4 > .single-skills>img>{
+    width: 50%;
+}
+.site-main .skills-area .first-row .col-lg-4 > .single-skills:hover{
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+}
+.site-main .skills-area .first-row .col-lg-4 > .single-skills:hover>img>{
+    filter: brightness(0.2);
+}
+
+.site-main .skills-area .technical-area{
+    padding: 2rem;
+}
+.site-main .skills-area .technical-area span{
+    display: block;
+}
+.site-main .skills-area .technical-area .bg-pannel{
+    position: absolute;
+    left: -290px; top: 0%;
+    background: #e029290a;
+    width: 500px;
+    height: 500px;
+    margin-left: 440px;
+    z-index: -1;
+}
+
+.site-main .skills-area .technical-area .skills-area .skills{
+    font: normal bold 84px/40px var(--roboto);
+    color: var(--primary-color2);
+
+}
+
+.site-main .skills-area .technical-area .skills-area h2 > span{
+    font: normal 800 25px/30px var(--roboto);
+}
+
+
+
+
+/* End Skills Area */
+
+
+
+/* Work Area */
+
+.site-main .work-area{
+    padding: 7rem 2rem;
+}
+.site-main .work-area .work-tile{
+    padding: 0 15rem;
+}
+
+.site-main .work-area .work-title h1{
+    font-size: 20px;
+}
+
+.site-main > .work-area .work{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+.site-main > .work-area .work:hover{
+    box-shadow: var(--box-shadow);
+}
+
+
+
+/* End Work Area */
+
+
+
+/* Start Projects Area */
+
+.site-main .projects-area{
+    padding: 5rem 1rem;
+}
+.site-main .projects-area .projects-tile{
+    padding: 0 10rem;
+}
+
+.site-main .projects-area .projects-title h1{
+    font-size: 20px;
+}
+
+.site-main > .projects-area .projects{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 6rem 0;
+    width: 15rem;
+    margin: 5rem 0.5rem;
+    transition: box-shadow .7s ease;
+}
+.site-main > .projects-area .projects:hover{
+    box-shadow: var(--box-shadow);
+}
+
+/* End Projects Area */
+
+
+/* Start Education Area */
+
+.site-main .education-area{
+    padding: 4rem 0;
+}
+
+.site-main .education-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+.site-main .education-area .button-group button + button{
+    padding-left: 3rem;
+}
+.site-main .education-area .grid .education > .title h4{
+    font: normal 700 25px/12px var(--roboto);
+}
+
+.site-main .education-area .grid .education .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+/* End Education Area */
+
+
+/* Start Courses Area */
+
+
+.site-main .courses-area .courses-title p{
+    padding: 1rem 15rem;
+}
+
+.site-main .courses-area .courses{
+    background: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 2rem 0rem;
+}
+.site-main .courses-area .courses .courses-img{
+    padding: 2rem;
+}
+
+.site-main .courses-area .courses .about-courses{
+    padding-top: 2rem;
+}
+
+.site-main .courses-area .courses .about-courses h4{
+    font: normal 500 21px/ 20px var(--roboto);
+}
+
+.site-main .courses-area .courses .about-courses p{
+    font-size: 15px;
+}
+
+.site-main .courses-area .owl-carousel .owl-item{
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+
+.site-main .courses-area .owl-carousel .owl-dots .owl-dot .active span{
+    background: var(--primary-color);
+    width: 12px;
+    height: 12px;
+}
+
+/* End Courses Area */
+
+
+/* Subscribe Me */
+
+.site-main .subscribe-me-area .subscribe{
+    background: url(../img/Blue\ Blueberries\ Food\ Fact\ Facebook\ Post.png) no-repeat;
+    padding: 10rem 0;
+    margin: 3rem auto;
+
+}
+
+
+.site-main .subscribe-me-area .subscribe .subscribe-title h4{
+    font: normal 700 25px/ 30px var(--roboto);
+    color: whitesmoke;
+}
+.site-main .subscribe-me-area .subscribe .subscribe-title p{
+    color: yellow;
+    padding: 1rem 2rem;
+}
+.site-main .subscribe-me-area .subscribe form .input-textbox input{
+    width: 400px;
+    padding: 1.5rem 1rem;
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: black;
+    font: normal 500 17px/ 20px var(--roboto);
+}
+
+.site-main .subscribe-me-area .subscribe form .input-textbox input::placeholder{
+    color: black;
+}
+.site-main .subscribe-me-area .subscribe form .btn-submit button{
+    background: whitesmoke;
+    color: black;
+    padding: 1rem 1rem;
+}
+
+/* End Subscribe Me */
+
+
+/* Footer Area */
+
+footer.footer-area{
+    padding: 5rem 0;
+    background: url(../img/Footer.png) no-repeat;
+}
+footer.footer-area .social h5{
+    font: normal 500 23px/ 30px var(--roboto);
+    color: black;
+}
+
+
+footer.footer-area .social a > i{
+    font-size: 22px;
+    padding: 2rem;
+    color: blue;
+}
+footer.footer-area .social a:hover > i{
+    color: blueviolet;
+}
+
+
+
+
+/* End Footer Area */
+
